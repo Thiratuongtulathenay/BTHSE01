@@ -1,0 +1,18 @@
+.topic > .forums {
+    background-color: bisque;
+}
+
+.ads{
+    display: none;
+}
+
+.topic {
+    width: 100%;
+}
+
+.flex {
+    flex-direction: column;
+}
+img {
+    width: 100%;
+}
