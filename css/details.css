@@ -1,0 +1,66 @@
+.col20 {
+    width: 20%;
+}
+
+.col80 {
+    width: 80%;
+    padding: 1rem;
+}
+
+.col20 img {
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.star li i {
+    color: gold;
+}
+
+.star li {
+    list-style: none;
+}
+
+.rv textarea  {
+    width: 100%;
+    height: 4.5rem;
+}
+
+.subtitle::after {
+    content: " ";
+    border: 2px solid darkblue;
+    display: block;
+    margin-top: 10px;
+}
+
+.subtitle {
+    background: linear-gradient(to left bottom, white 0%, white 45%, blue 55%);
+}
+
+.col10 {
+    width: 10%;
+}
+
+.col10 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.col90 {
+    width: 90%;
+    padding: 1rem;
+}
+
+.comment {
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: bisque;
+    padding: 5px;  
+}

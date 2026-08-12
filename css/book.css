@@ -14,7 +14,7 @@
 .menu {
     background: linear-gradient(white, blue 70%);
     list-style-type: none;
-    padding: 0;
+    padding: 1px;
     margin: 0;
 }
 
@@ -25,6 +25,12 @@
 .menu > li:last-child {
     border-right: none;
 }
+
+.buttons {
+    margin-left: auto;
+}
+
+
 
 .menu > li > a {
     display: block;
@@ -118,4 +124,18 @@ footer > span {
     to {
         left: 100%;
     }
+}
+
+.btn {
+    border: 1px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.btn-success {
+    background-color: lightgreen;
+}
+
+.btn-info {
+    background-color: lightblue;
 }

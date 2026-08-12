@@ -51,7 +51,7 @@ nav {
     border-radius: 0 0 1rem 1rem;
 }
 
-img {
+.forum > .img {
     width: 180px;
     border-radius: 50%;
 }
