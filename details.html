@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" rel="stylesheet" />
     <link href="css/book.css" rel="stylesheet" />
     <link href="css/details.css" rel="stylesheet" />
+    <script src="js/details.js"></script>
     <link href="css/cssmobile.css" rel="stylesheet" media="screen and (max-width: 800px)">
     <link
     rel="stylesheet"
@@ -31,10 +32,16 @@
 
         <h1 class="subject">Chi tiet sach</h1>
     </header>
-
         <section class="flex container">
             <div class="col20">
-                <img src="images/1.jpg" alt="hinh">
+                <img src="images/1.jpg" alt="hinh" id="main-img">
+                    <div class="thumb">
+                    <img src="images/1.jpg" alt="hinh">
+                    <img src="images/t01.png" alt="hinh">
+                    <img src="images/t02.png" alt="hinh">
+                    <img src="images/t03.png" alt="hinh">
+                    <img src="images/t04.png" alt="hinh">
+            </div>
             </div>
             <div class="col80">
                 <h2>Cau truc du lieu</h2>
@@ -111,7 +118,7 @@
 
         <section class="comments">
             <div class="rv">
-                <textarea placeholder="Noi dung binh luan"></textarea>
+                <textarea onclick="add-Comment()" placeholder="Noi dung binh luan"></textarea>
             </div>
         </section>
 

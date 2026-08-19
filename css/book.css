@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.h-flex {
+    justify-content: center;
+}
+
 .menu {
     background: linear-gradient(white, blue 70%);
     list-style-type: none;

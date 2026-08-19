@@ -64,3 +64,18 @@ table {
     background-color: bisque;
     padding: 5px;  
 }
+
+/* CSS THUMB */
+
+.thumb{
+    width: 20%;
+}
+
+.thumb > img {
+    width: 100%;
+}
+
+.thumb > img:hover {
+    transform: scale(1.1);
+}
+

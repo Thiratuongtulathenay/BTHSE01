@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
     <link href="css/book.css" rel="stylesheet" />
+    <link href="css/modal.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" rel="stylesheet" />
     <link href="images/logo.png" rel="shortcut icon" />
+    <script src="js/book.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,7 +25,7 @@
                 </li>
                 <li><a href="forum.html"target ="_blank"><i class="fa-brands fa-stack-exchange"></i> Diễn đàn</a></li>
                 <li class="buttons">
-                    <button class="btn btn-success"><i class="fa-solid fa-circle-user"></i>Dang ki</button>
+                    <button class="btn btn-success" onclick="openRegisterModal(this)" rel="registerModal"><i class="fa-solid fa-circle-user"></i>Dang ki</button>
                     <button class="btn btn-info"><i class="fa-solid fa-right-to-bracket"></i>Dang nhap</button>
                 </li>
             </ul>
@@ -162,8 +164,44 @@
         </div>
     </section>
 
+    <div class="modal flex h-flex modal-hidden" id="registerModal">
+            <div class="modal-content">
+            <a href="#" class="modal-close" onclick="closeModal(this)" rel="registerModal">&times;</a>
+                <div class="control">
+                    <p>Ho va ten</p>
+                <input type="name" placeholder="Ho va ten" class="input-control">
+                </div>
+                <div class="control">
+                    <p>Email</p>
+                    <input type="email" placeholder="Email" class="input-control">
+                </div>
+                <div class="control">
+                    <p>Ten dang nhap</p>
+                    <input type="username" placeholder="Ten dang nhap" class="input-control">
+                </div>
+                <div class="control">
+                    <p>Mat khau</p>
+                    <input type="password" placeholder="Mat khau" class="input-control">
+                </div>
+                <div class="control">
+                    <p>Xac nhan mat khau</p>
+                    <input type="password" placeholder="Xac nhan mat khau" class="input-control">
+                </div>
+                <div class="btn-control">
+                    <button class="btn btn-success">Dang ky</button>
+            </div>
+            
+
+        </div>
+        
+       
+    </div>
+
     <footer>
         <span>OU WEB DESIGN &copy; 2026</span>
     </footer>
+
+    
+
 </body>
 </html>
